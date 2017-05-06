@@ -1,6 +1,6 @@
 'use strict';
 
-var foo = 'hello world!';
+var foo = 'hello world!  hello huyue';
 
 var index = function () {
   console.log(foo);

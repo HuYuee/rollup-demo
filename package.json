@@ -4,7 +4,8 @@
   "description": "rollup技术分享",
   "main": "index.js",
   "scripts": {
-    "demo1": "rollup -c config/demo1/rollup.config.js "
+    "demo1": "rollup -c config/demo1/rollup.config.js ",
+    "demo1_watch": "rollup -c config/demo1/rollup.config.js -w"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/HuYuee/rollup-demo#readme",
   "devDependencies": {
-    "rollup": "^0.41.6"
+    "rollup": "^0.41.6",
+    "rollup-watch": "^3.2.2"
   }
 }
