@@ -1,0 +1,22 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "description": "rollup技术分享",
+  "main": "index.js",
+  "scripts": {
+    "demo1": "rollup -c config/demo1/rollup.config.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuYuee/rollup-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuYuee/rollup-demo/issues"
+  },
+  "homepage": "https://github.com/HuYuee/rollup-demo#readme",
+  "devDependencies": {
+    "rollup": "^0.41.6"
+  }
+}
