@@ -8,7 +8,8 @@
     "demo1_watch": "rollup -c config/demo1/rollup.config.js -w",
     "demo2": "rollup -c config/demo2/rollup.config.js ",
     "demo3": "rollup -c config/demo3/rollup.config.js ",
-    "demo4": "rollup -c config/demo4/rollup.config.js "
+    "demo4": "rollup -c config/demo4/rollup.config.js ",
+    "demo5": "rollup -c config/demo5/rollup.config.js "
   },
   "repository": {
     "type": "git",
