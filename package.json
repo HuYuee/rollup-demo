@@ -10,7 +10,8 @@
     "demo3": "rollup -c config/demo3/rollup.config.js ",
     "demo4": "rollup -c config/demo4/rollup.config.js ",
     "demo5": "rollup -c config/demo5/rollup.config.js ",
-    "demo6": "gulp rollup"
+    "demo6": "gulp rollup",
+    "demo7": "rollup -c config/demo7/rollup.config.js "
   },
   "repository": {
     "type": "git",
@@ -25,12 +26,16 @@
   "devDependencies": {
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-latest": "^6.24.1",
+    "deepmerge": "^1.3.2",
     "gulp": "^3.9.1",
     "gulp-rollup-each": "^0.2.2",
     "rollup": "^0.41.6",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-json": "^2.1.1",
+    "rollup-plugin-license": "^0.3.0",
+    "rollup-plugin-multidest": "^1.0.0",
     "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^1.0.2",
     "rollup-watch": "^3.2.2"
   },
   "dependencies": {
