@@ -1,5 +1,5 @@
 import babel from "rollup-plugin-babel";
-import multidest from "rollup-plugin-multidest";
+import multidest from "rollup-plugin-multi-dest";
 import resolve from "rollup-plugin-node-resolve";
 import uglify from "rollup-plugin-uglify";
 import license from "rollup-plugin-license";
