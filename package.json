@@ -11,7 +11,8 @@
     "demo4": "rollup -c config/demo4/rollup.config.js ",
     "demo5": "rollup -c config/demo5/rollup.config.js ",
     "demo6": "gulp rollup",
-    "demo7": "rollup -c config/demo7/rollup.config.js "
+    "demo7": "rollup -c config/demo7/rollup.config.js ",
+    "demo8": "rollup -c config/demo8/rollup.config.js "
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "gulp-rollup-each": "^0.2.2",
     "rollup": "^0.41.6",
     "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-json": "^2.1.1",
     "rollup-plugin-license": "^0.3.0",
     "rollup-plugin-multi-dest": "^1.0.2",
