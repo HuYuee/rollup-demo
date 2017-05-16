@@ -10,7 +10,7 @@ rollup技术分享
 
    npm install -D rollup-watch（npm run demo1_watch）
 
-3. 支持引入json文件
+3. 支持引入json文件，并且按需加载
 
    npm install -D rollup-plugin-json（demo2）
 
