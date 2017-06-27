@@ -6,9 +6,7 @@ export default {
   format: 'cjs',
   plugins: [
     resolve(),
-    babel({
-      exclude: 'node_modules/**' // only transpile our source code
-    })
+    babel()//对所有的文件进行es6转es5
   ],
   dest: 'dist/demo4/build.js' // equivalent to --output
 };

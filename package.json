@@ -12,7 +12,8 @@
     "demo5": "rollup -c config/demo5/rollup.config.js ",
     "demo6": "gulp rollup",
     "demo7": "rollup -c config/demo7/rollup.config.js ",
-    "demo8": "rollup -c config/demo8/rollup.config.js "
+    "demo8": "rollup -c config/demo8/rollup.config.js ",
+    "upgrade": "npm uninstall tinper-sparrow compox compox-util tinper-neoui neoui-kero-mixin kero kero-fetch tinper-neoui-grid tinper-neoui-tree tinper-neoui-polyfill neoui-kero && npm install tinper-sparrow compox compox-util tinper-neoui neoui-kero-mixin kero kero-fetch tinper-neoui-grid tinper-neoui-tree tinper-neoui-polyfill neoui-kero --save"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,17 @@
     "rollup-watch": "^3.2.2"
   },
   "dependencies": {
-    "the-answer": "^1.0.0"
+    "compox": "^3.2.2",
+    "compox-util": "^3.2.2",
+    "kero": "^3.2.4",
+    "kero-fetch": "^3.2.2",
+    "neoui-kero": "^3.2.3",
+    "neoui-kero-mixin": "^3.2.2",
+    "the-answer": "^1.0.0",
+    "tinper-neoui": "^3.2.4",
+    "tinper-neoui-grid": "^3.2.3",
+    "tinper-neoui-polyfill": "^3.2.1",
+    "tinper-neoui-tree": "^3.2.2",
+    "tinper-sparrow": "^3.2.3"
   }
 }
